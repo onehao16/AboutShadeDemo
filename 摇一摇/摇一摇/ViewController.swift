@@ -120,7 +120,7 @@ class ViewController: UIViewController,AVAudioPlayerDelegate {
     
     func setData() {
         
-        let title = "小龙女-女-相距400米"
+        let title = "你想要什么样子的美女"
         datailbtn.setTitle(title, forState: UIControlState.Normal)
         
         let size = title.boundingRectWithSize(CGSizeMake(280, 0), options: NSStringDrawingOptions.UsesLineFragmentOrigin, attributes: [NSFontAttributeName: UIFont.systemFontOfSize(14.0)], context: nil)
